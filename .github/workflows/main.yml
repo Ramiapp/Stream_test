@@ -12,7 +12,7 @@ jobs:
           python-vesrion: '3.10'
       - name: Install Dependencies
         run: |
-         python-m pipinstall --upgrade pip
+         python-m pip install --upgrade pip
          pip install pyyaml
       - name: Run Feed generator
         run: python feed.py
