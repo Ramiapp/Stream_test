@@ -9,7 +9,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup=python@v4
         with:
-          python-vesrion:'3.10'
+          python-vesrion: '3.10'
       - name: Install Dependencies
         run: |
          python-m pipinstall --upgrade pip
